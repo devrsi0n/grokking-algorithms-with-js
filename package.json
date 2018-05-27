@@ -17,6 +17,7 @@
   ],
   "devDependencies": {
     "babel": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
     "codecov": "^3.0.2",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
