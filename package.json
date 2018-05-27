@@ -1,0 +1,31 @@
+{
+  "name": "grokking-algorithms-with-js",
+  "version": "0.0.1",
+  "description": "Grokking algorithms implemented by JavaScript",
+  "repository": "git@github.com:devrsi0n/grokking-algorithms-with-js.git",
+  "author": "devrsi0n <devrsi0n@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src/*",
+    "test": "jest",
+    "ci": "npm run lint && npm run test -- --coverage",
+    "codecov": "codecov"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "codecov": "^3.0.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.15.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^23.0.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.12.1"
+  }
+}
