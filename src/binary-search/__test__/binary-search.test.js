@@ -8,7 +8,7 @@ describe('binary-search', () => {
     expect(binarySearch(arr, null)).toBe(-1);
 
     arr = [];
-    const len = 100000;
+    const len = 10000000;
     for (let i = 0; i < len; i++) {
       arr.push(i);
     }
