@@ -6,6 +6,8 @@
     "jest/globals": true
   },
   "rules": {
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "import/prefer-default-export": "off"
   }
 }
